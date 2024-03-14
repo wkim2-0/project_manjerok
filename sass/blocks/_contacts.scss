@@ -1,0 +1,76 @@
+.contacts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    right: 80px;
+    bottom: 10px;       
+    &__arrow-down {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: -30px;
+        top: 2px;
+        background-color: rgba(255,255,255,.15);
+        cursor: pointer;
+        border-radius: 2px;
+        span {
+            display: inline-block;
+            position: absolute;
+            top: 41%;
+            left: 35%;
+            width: 7px;
+            height: 4px;
+            background: url('../icons/ic_open_list_contacts.png') center center/cover no-repeat;
+        }
+        &:hover {
+            .contacts__list {
+                display: block;
+            }
+        }
+    }
+    &__list {
+        display: none;
+        position: absolute;
+        top: -20px;
+        width: 220px;
+        background-color: #fff;
+        box-shadow: 0 0 10px 5px rgba(0,0,0,.27);
+        border-radius: 2px;
+        z-index: 40;
+    }
+    &__list-item {
+        position: relative;
+        border-bottom: 1px solid #d1dce0;
+        padding: 19px;
+        text-align: left;
+    }
+    &__phone {
+        a {
+            color: #000;
+            text-decoration: none;
+            line-height: 22px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+    &__descr {
+        margin-top: 2px;
+        font-size: 14px;
+        line-height: 18px;
+        color: #898989;
+        margin-top: 2px;
+    }
+    &__mail {
+        a {
+            font-size: 15px;
+            line-height: 22px;
+            color: #1a8fe9;
+            text-decoration: none;
+            transition: all .3s;
+            &:hover {
+                border-bottom: 1px solid #1a8fe9;
+            }
+        }
+    }
+}

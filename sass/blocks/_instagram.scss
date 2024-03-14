@@ -1,0 +1,18 @@
+.instagram {
+    position: relative;
+    padding: 80px 0;
+    &__descr {
+        color: #5d5d5d;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    &__content {
+        height: 877px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}

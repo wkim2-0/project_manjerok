@@ -1,0 +1,45 @@
+.connection {
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    &__policy {
+        display: flex;
+        margin-top: 15px;
+        span {
+            font-size: 14px;
+            line-height: 20px;
+            color: #8c8c8c;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #2285c4;
+        }
+    }
+    &__checkbox {
+        position: relative;
+        top: -22px;
+        margin-right: 10px;
+        cursor: pointer;
+        width: 15px;
+        
+    }
+    &__thank {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+        font-size: 22px;
+        line-height: 26px;
+        padding-top: 30px;
+        top: 120px;
+        right: 100px;
+        transition: all .7s;
+        &.show {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}

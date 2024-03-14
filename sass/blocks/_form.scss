@@ -1,0 +1,33 @@
+.form {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    &__item {
+        position: relative;
+    }
+    input {
+        position: relative;
+        height: 55px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 15px;
+        border: 2px solid #d5d5d5;
+        color: #767676;
+        transition: all .8s;
+        &.error {
+            border-color: #a94242
+        }
+        &:focus-visible {
+            outline-style: none;
+        }
+    }
+    &.hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+}   

@@ -1,0 +1,13 @@
+.photo {
+    margin-top: 80px;
+    &__slider {
+        margin-top: 60px;
+        width: 950px;
+    }
+
+    &__item {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.footer {
+    min-height: 550px;
+    background: url(../img/footer-bg.jpg) center center/cover no-repeat;
+    &__logo {
+        padding-top: 60px;
+        height: 210px;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 100%;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        width: 730px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px auto 0 auto;
+        padding: 15px 30px;
+        border-radius: 5px;
+        background: rgba(0,0,0,.2);
+    }
+    &__item {
+        padding: 0 30px;
+    }
+
+    &__border {
+        border-right: 1px solid rgba(255,255,255,.3);
+    }
+    &__descr {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 20px;
+        color: #e2e2e2;
+        text-align: center;
+    }
+    &__policy {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
+        color: #d3c7c7;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

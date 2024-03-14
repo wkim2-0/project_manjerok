@@ -1,0 +1,31 @@
+.social {
+    display: flex;
+    a {
+        width: 30px;
+        margin: 0 3px;
+    }
+    img {
+        opacity: 0.8;
+        width: 100%;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.phone {
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mail {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,63 @@
+@import 'libs/fonts';
+@import 'base/animation';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato';
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.pageup {
+    position: fixed;
+    visibility: hidden;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    transition: all .7s;
+    opacity: 0;
+    background: url(../icons/up.png) center center/cover no-repeat;
+    z-index: 999;
+    &.show {
+        opacity: .8;
+        visibility: visible;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+}
+
+@import 'blocks/header';
+@import 'blocks/contacts';
+@import 'blocks/menu';
+@import 'blocks/social';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/round';
+@import 'blocks/village';
+@import 'blocks/offers';
+@import 'blocks/photo';
+@import 'blocks/road';
+@import 'blocks/advantages';
+@import 'blocks/plan';
+@import 'blocks/button';
+@import 'blocks/instagram';
+@import 'blocks/connection';
+@import 'blocks/form';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'base/media';

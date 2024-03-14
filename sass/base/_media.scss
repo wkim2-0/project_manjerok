@@ -1,0 +1,349 @@
+@media (min-width: 1200px) {
+    .md-visible {
+        display: none;
+    }
+    .sm-visible {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .md-visible {
+        display: none;
+    }
+    .sm-visible {
+        display: none;
+    }
+    .container {
+        width: 970px;
+    }
+    .title {
+        font-size: 41px;
+    }
+    .button {
+        font-size: 17px;
+        line-height: 17px;
+        padding: 20px 30px;
+    }
+    .round {
+        opacity: 1;
+    }
+    .promo {
+        &__title {
+            font-size: 47px;
+            line-height: 52px;
+        }
+    }
+    .offers {
+        &__number {
+            font-size: 45px;
+        }
+        &__wrapper {
+        }
+        &__text {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__button {
+            top: 57%;
+        }
+    }
+    .photo {
+        &__slider {
+            width: 100%; 
+       }
+    }
+    #btn-prev-2 {
+        left: 60px;
+    }
+    #btn-next-2 {
+        right: 60px;
+    }
+    .map {
+        &__descr {
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .md-visible {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    .md-hidden {
+        display: none;
+    }
+    .title {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .hamburger {
+        &__md {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255, 255, 255, .1);
+            width: 70px;
+            height: 70px;
+            margin-top: 0;
+        }
+    }
+    .phone {
+        font-size: 16px;
+    }
+    .contacts {
+        &__arrow-down {
+            left: -15px;
+        }
+    }
+    .promo {
+        &__title {
+            font-size: 38px;
+        }
+    }
+    .offers {
+        &__text {
+            line-height: 24px;
+            font-size: 24px;
+            margin-top: 5px;
+        }
+        &__relevance {
+            font-size: 14px;
+            line-height: 14px;
+            margin-top: 20px;
+        }
+        &__button {
+            top: 50%;
+        }
+    }
+    .village {
+        padding: 60px 0 100px 0;
+    }
+    #btn-prev-2 {
+        left: 60px;
+    }
+    #btn-next-2 {
+        right: 60px;
+    }
+    .instagram {
+        padding: 80px 0 0 0;
+        &__content {
+            height: auto;
+        }
+    }
+    .map {
+        iframe {
+            display: none !important;
+        }
+        &__wrapper {
+            height: 403px;
+            background-color: #fff;
+        }
+        &__descr {
+            top: 11%;
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    .sm-hidden {
+        display: none;
+    }
+    .sm-visible {
+        display: flex;
+    }
+    .header {
+        min-height: 55px;
+        &__wrapper {
+            align-items: center;
+        }
+        &__img {
+            padding-top: 0;
+            height: 40px;
+        }
+        ul {
+            display: none;
+        }
+        &__call-sm {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25px;
+            height: 54px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .menu {
+        &__block {
+            width: 100%;
+        }
+        &__logo {
+            height: 55px;
+            padding: 10px 35px;
+        }
+        &__footer {
+            text-align: center;
+        }
+        &__close {
+            width: 25px;
+            height: 25px;
+            right: 15px;
+            margin-right: 0;
+            top: 15px;
+        }
+        &.active {
+            right: 0;
+        }
+    }
+    .button {
+        &__sm {
+            margin: 0 auto 20px auto;
+            width: 100%;
+            display: block;
+        }
+    }
+    .phone {
+        font-size: 23px;
+    }
+    .promo {
+        &__header {
+            height: 80px;
+        }
+        &__logo {
+            height: 40px;
+        }
+        &__title {
+            font-size: 29px;
+            line-height: 33px;
+        }
+    }
+    .village {
+        padding: 50px 0 80px 0;
+        &__descr {
+            margin-top: 25px;
+        }
+    }
+    .offers {
+        img {
+            height: 500px;
+            object-fit: cover;
+        }
+        &__button {
+            top: 48%;
+            width: 95%;
+        }
+        &__footer {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__footer-item {
+            width: 100%;
+            margin: 20px;
+        }
+        &__number {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+        &__relevance {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__button {
+            top: 40%;
+        }
+    }
+    .btn {
+        opacity: 1;
+        &__next {
+            background: url(../icons/slide_mob_right.png) center center/50% no-repeat;
+            background-size: 10px;
+        }
+        &__prev {
+            background: url(../icons/slide_mob_left.png) center center/50% no-repeat;
+            background-size: 10px;
+        }
+    }
+    .photo {
+        &__slider {
+            margin-top: 30px;
+            img {
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+    }
+    .itcss {
+        &__indicators {
+            display: none !important;
+        }
+    }
+    .road {
+        &__wrapper {
+            margin-top: 30px;
+            height: 300px;
+        }
+    }
+    .col {
+        word-break: break-all;
+        &__fz29 {
+            font-size: 16px;
+        }
+        &__fz20 {
+            font-size: 13px;
+        }
+        &__fz18 {
+            font-size: 13px;
+        }
+        &__col-1 {
+            font-size: 12px;
+        }
+    }
+    .instagram {
+        &__content {
+            // height: 700px;
+        }
+    }
+    .map {
+        &__descr {
+            width: 100%;
+            left: 0;
+        }
+    }
+    .footer {
+        padding: 40px 0;
+        &__logo {
+            padding: 0;
+            height: 90px;
+        }
+        &__wrapper {
+            width: 300px;
+            flex-direction: column;
+        }
+        &__item {
+            padding: 0;
+            margin-top: 8px;
+        }
+        &__border {
+            border: none;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+}
+    

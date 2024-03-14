@@ -1,0 +1,43 @@
+.round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #2f631a;
+    opacity: 0.7;
+    &:hover {
+        opacity: 1;
+    }
+    img {
+        width: 50%;
+    }
+    &__hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 14px;
+        span {
+            display: block;
+            background-color: #fff;
+            height: 2px;
+            width: 20px;
+        }
+    }
+    &__dark-green {
+        background-color: #114500;
+        width: 50px;
+        height: 50px;
+    }
+}
+.callphone {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1;
+    
+}

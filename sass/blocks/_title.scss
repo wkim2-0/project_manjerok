@@ -1,0 +1,19 @@
+.title {
+    position: relative;
+    color: #181818;
+    font-size: 49px;
+    line-height: 49px;
+    text-align: center;
+    margin: 0;
+    &__green {
+        color: #2f631a;
+    }
+    &__white {
+        color: #fff;
+        z-index: 3;
+    }
+    &__yellow {
+        color: #fff92f;
+        text-transform: uppercase;
+    }
+}

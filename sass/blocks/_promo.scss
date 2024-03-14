@@ -1,0 +1,65 @@
+.promo {
+    position: relative;
+    min-height: 100vh;
+    background: url(../img/promo.jpg) center center/cover no-repeat;
+    &__header {
+        position: relative;
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__logo {
+        img {
+            max-height: 70px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    &__title {
+        margin-top: 200px;
+        font-size: 70px;
+        line-height: 76px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.down-scroll {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,.3);
+    z-index: 0;
+    cursor: pointer;
+    border-radius: 100%;
+    animation: scrolldown .8s running alternate infinite;
+    img {
+        height: 16px;
+        width: 14px;
+    }
+}
+
+.shadow {
+    background: rgba(0,0,0,0.45);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    // &__top {
+    //     background: url(../img/top_shadow.png) center center/cover no-repeat;
+    // }
+}
+

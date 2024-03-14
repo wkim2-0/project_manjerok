@@ -1,0 +1,15 @@
+.road {
+    margin-top: 100px;
+    overflow: hidden;
+    &__wrapper {
+        margin-top: 80px;
+        
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: 40% center;
+        }
+    }
+}
+
